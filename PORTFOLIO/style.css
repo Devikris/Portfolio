@@ -21,8 +21,6 @@ header {
   margin: auto;
 }
 
-/* ////........Navbar.......//// */
-
 .navbar {
   position: fixed;
   width: 100%;
@@ -61,9 +59,6 @@ header {
   color: #f0f0e6;
   font-size: 2rem;
 }
-
-/* ////........Home Content........//// */
-
 .home-content .name {
   position: absolute;
   top: 47%;
@@ -99,8 +94,6 @@ header {
   color: #07374a;
   padding: 1rem;
 }
-
-/* ////........About Me........//// */
 
 .about-me {
   background-color: #07374a;
@@ -300,8 +293,6 @@ header {
   display: none;
 }
 
-/* ////.....Portfolio......///// */
-
 .portfolio {
   background: #25b79f;
   padding: 6rem 0;
@@ -430,8 +421,6 @@ header {
   color: #f0f0e6;
 }
 
-/* ////......Media query......//// */
-
 @media (max-width: 500px) {
   html {
     font-size: 60%;
@@ -536,18 +525,6 @@ header {
   }
 
   .proj-1 img {
-    height: 240px;
-    width: 290px;
-    margin-bottom: 0.5rem;
-  }
-
-  .proj-2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .proj-2 img {
     height: 240px;
     width: 290px;
     margin-bottom: 0.5rem;
